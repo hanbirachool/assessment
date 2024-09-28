@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    background-color: hsl(28, 24%, 89%);
+    
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(27, 24%, 37%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: hsl(28, 24%, 89%);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(26, 25%, 26%);
+}
+.navbar li{
+    float: left;
+}
+p{
+    font-style: italic;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+img{
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.tabby{
+    background-color: hsl(27, 24%, 37%);
+    color: hsl(28, 24%, 89%);
+    border: none;
+    height: 30px;
+    width: 320px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.wrapper{
+    text-align: center;
+    margin-top: 1.5%;
+}
+.tabby:hover{
+    background-color: hsl(26, 25%, 26%);
+}
+video{
+    max-width: 204px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
